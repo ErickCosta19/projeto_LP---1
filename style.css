@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'inter';
+}
+
+#logo {
+  margin: 50px;
+  margin: 75px;
+}
+
+#h1 {
+  width: 536px;
+  height: 102px;
+  margin-top: -20px;
+  margin-left: 190px;
+  color: #ffff;
+}
+
+#h3 {
+  width: 536px;
+  height: 90px;
+  padding-bottom: 100px;
+  margin-top: 8px;
+  margin-left: 190px;
+  color: #ffff;
+}
+
+#menu {
+  background-image: url(./Images/background_menu.svg);
+  color: #ffff;
+}
+
+#menuinfo {
+  background-color: #EAECE5;
+  display: grid;
+  grid-auto-flow: column;
+  grid-column: auto;
+}
+
+.icon {
+  margin: 50px 0px 50px 100px;
+  padding: 25px;
+}
+
+.informativetext {
+  display:flex;
+  align-items: center;
+}
+
+#video {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+}
+
+#frame {
+  margin: 50px 25px 75px 100px;
+}
+
+#titlevideo {
+  color: #247BA0;
+  margin-top: 50px;
+}
+
+#textvideo {
+  color: #383838;
+}
+
+#carousel {
+  background-color: #247BA0;
+  padding: 50px;
+}
+
+#titlecarousel {
+  color: #EAECE5;
+  font-size: 25px;
+  text-align: center;
+}
+
+#cards {
+  display: grid;
+  grid-auto-flow: column;
+  margin-top: 40px;
+  gap: 14px;
+}
+
+#left {
+  display: none;
+}
+
+#bruh {
+  display: none;
+}
+
+.seta {
+  margin-top: 55%;
+  cursor: pointer;
+}
+
+.seta:hover {
+  transform:translateY(-7px);
+  transition-duration: 0.5s;
+}
+
+#form {
+  text-align: center;
+}
+
+#titleform {
+  font-size: 25px;
+  margin: 25px;
+  color: #383838;
+}
+
+input {
+  width: 300px;
+  height: 35px;
+  margin: 15px;
+  border: none;
+  background-color: #EAECE5;
+  border-radius: 5px;
+}
+
+button {
+  Width: 335px;
+  Height: 53px;
+  background-color: #247BA0;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 16px;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+
+button:hover {
+  transform:translateY(-7px);
+  transition-duration: 0.5s;
+  background-color: #247BA0;
+  box-shadow: 0px 15px 20px #1a4152;
+}
+
